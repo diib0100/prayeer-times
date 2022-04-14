@@ -1,0 +1,31 @@
+
+        ul.breadcrumb {
+            padding: 7px 21px;
+            list-style: none;
+            background-color: #097233;
+            text-align: right;
+            border-bottom: 4px solid #097233;
+            clear: both;
+        }
+
+        ul.breadcrumb li {
+            display: inline;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        ul.breadcrumb li+li:before {
+            padding: 2px;
+            color: #c8d85b;
+            content: "/\00a0";
+        }
+
+        ul.breadcrumb li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        ul.breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+        }

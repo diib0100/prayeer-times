@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'NewFont';
+    font-style: normal;
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.eot);
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'), url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.woff2) format('x-woff2'), url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.woff) format('woff'), url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.ttf) format('truetype');
+}
+
+* {
+    direction: rtl;
+    font-family: "NewFont";
+}
+
+.fa-anchor,
+.fa-coffee {
+    font-size: 200px
+}
+
+a {
+    text-decoration: none
+}
+
+.listcities h5 {
+    font-size: 14px;
+    margin: 0px;
+    text-align: right;
+    padding: 2px 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+#fullpage.w3-container,
+#fullpage.w3-row-padding {
+    padding: 0px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.searchButton {
+    padding: 5px;
+    border-radius: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+    z-index: 1;
+}
+
+@media print {
+    .w3-teal,
+    .w3-green,
+    .w3-blue-gray,
+    .w3-table-all tr:nth-child(even) {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Force table to not be like tables anymore */
+    table.prayer-table, .prayer-table thead, .prayer-table tbody, .prayer-table th, .prayer-table td, .prayer-table tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .prayer-table thead tr {
+        position: absolute;
+        top: -9999px;
+        right: -9999px;
+    }
+    .prayer-table tr {
+        border: 1px solid #097233;
+    }
+    .prayer-table td:first-child {
+        padding-right: 50%;
+    }
+    .prayer-table td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #ccc;
+        position: relative;
+        padding-right: 50%;
+    }
+    .prayer-table td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        right: 6px;
+        width: 45%;
+        padding-left: 10px;
+        white-space: nowrap;
+    }
+    /*
+        Label the data
+        */
+    .prayer-table td:nth-of-type(1):before {
+        content: "الفجر";
+        font-weight: bold;
+    }
+    .prayer-table td:nth-of-type(2):before {
+        content: "الشروق";
+        font-weight: bold;
+    }
+    .prayer-table td:nth-of-type(3):before {
+        content: "الظهر";
+        font-weight: bold;
+    }
+    .prayer-table td:nth-of-type(4):before {
+        content: "العصر";
+        font-weight: bold;
+    }
+    .prayer-table td:nth-of-type(5):before {
+        content: "المغرب";
+        font-weight: bold;
+    }
+    .prayer-table td:nth-of-type(6):before {
+        content: "العشاء";
+        font-weight: bold;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+.so-but {
+    padding: 4px 10px;
+    font-size: 14px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.so-but:hover {
+    opacity: 0.7;
+}
+
+.so-but-facebook {
+    background: #097233;
+    color: white;
+}
+
+.so-but-twitter {
+    background: #097233;
+    color: white;
+}
+
+.so-but-google {
+    background: #097233;
+    color: white;
+}
+
+.so-but-linkedin {
+    background: #097233;
+    color: white;
+}
+
+.so-but-youtube {
+    background: #097233;
+    color: white;
+}
+
+.so-but-instagram {
+    background: #097233;
+    color: white;
+}
+
+.so-but-pinterest {
+    background: #097233;
+    color: white;
+}
+
+.so-but-snapchat-ghost {
+    background: #097233;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.so-but-skype {
+    background: #097233;
+    color: white;
+}
+
+.so-but-android {
+    background: #097233;
+    color: white;
+}
+
+.so-but-whatsapp {
+    background: #34AF23;
+    color: white;
+}
+
+.so-but-dribbble {
+    background: #097233;
+    color: white;
+}
+
+.so-but-vimeo {
+    background: #097233;
+    color: white;
+}
+
+.so-but-tumblr {
+    background: #097233;
+    color: white;
+}
+
+.so-but-vine {
+    background: #00b489;
+    color: white;
+}
+
+.so-but-foursquare {
+    background: #097233;
+    color: white;
+}
+
+.so-but-stumbleupon {
+    background: #097233;
+    color: white;
+}
+
+.so-but-flickr {
+    background: #097233;
+    color: white;
+}
+
+.so-but-yahoo {
+    background: #097233;
+    color: white;
+}
+
+.so-but-soundcloud {
+    background: #097233;
+    color: white;
+}
+
+.so-but-reddit {
+    background: #097233;
+    color: white;
+}
+
+.so-but-rss {
+    background: #097233;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    header h1 {
+        font-size: 16px;
+    }
+    header p.w3-xlarge {
+        font-size: 14px !important;
+    }
+    header input[type=search] {
+        font-size: 12px;
+        min-height: 60px;
+    }
+    .so-but-mobile {
+        display: inline-block;
+        width: 49% !important;
+        margin: 5px 0px;
+    }
+}
